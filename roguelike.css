@@ -44,12 +44,6 @@ ul li {
 	background-color: yellow;
 }
 
-#log {
-	width: 500px;
-	height: 200px;
-	overflow: auto;
-}
-
 #level {
 	margin: 0 auto;
 	padding: 0;
@@ -72,6 +66,9 @@ ul li {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+	width: 500px;
+	height: 200px;
+	overflow: auto;
 }
 
 #alert {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Roguelike</title>
+	<link rel="stylesheet" type="text/css" href="roguelike.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+<body>
+
+<table id="level"></table>
+<div id="info">
+	<div>
+		<span class="left">
+			<span id="name"></span> the <span id="race"></span> <span id="job"></span>
+		</span>
+		<span class="right">
+			HP: <span id="hp"></span>/<span id="maxHp"></span>
+			MP: <span id="mp"></span>/<span id="maxMp"></span>
+		</span>
+	</div>
+	<div>
+		<span class="left">
+			Str: <span id="str"></span>
+			Int: <span id="int"></span>
+			Dex: <span id="dex"></span>
+			Exp: <span id="exp"></span>
+		</span>
+		<span class="right">
+			Turns: <span id="turnCount"></span>
+			Map: <span id="levelName"></span>
+		</span>
+	</div>
+</div>
+<div id="alert"></div>
+<div id="logContainer">
+	<hr>
+	<ul id="log"></ul>
+</div>
+
+<div style="display:none" id="items"></div>
+<div style="display:none" id="gear"></div>
+<div style="display:none" id="conditions"></div>
+
+</body>
+<script type="text/javascript" src="roguelike.js"></script>
+</html>

@@ -1,0 +1,117 @@
+body {
+	margin: 100px auto;
+	background-color: black;
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+}
+
+div {
+	overflow: auto;
+}
+
+ul li {
+	word-wrap: normal;
+}
+
+.tile {
+	text-align: center;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	vertical-align: center;
+	width: 40px;
+	height: 40px;
+}
+
+.ground {
+	background-color: green;
+}
+
+.permawall {
+	background-color: gray;
+}
+
+.left {
+	display: inline-block;
+	float: left;
+}
+
+.right {
+	display: inline-block;
+	float: right;
+}
+
+.reticle-here {
+	background-color: yellow;
+}
+
+#log {
+	width: 500px;
+	height: 200px;
+	overflow: auto;
+}
+
+#level {
+	margin: 0 auto;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+#info {
+	text-align: center;
+	width: 500px;
+	margin: 10px auto;
+	padding: 0;
+}
+
+#logContainer {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#log {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#alert {
+	text-align: center;
+	color: red;
+	height: 25px;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	opacity: .4;
+	animation-name: fade;
+  	animation-duration: 1s;
+}
+
+#logContainer hr {
+	border-color: gray;
+	background-color: gray;
+	color: gray;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+      width: 15px;
+}
+::-webkit-scrollbar-track {
+      background-color: gray;
+} 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+} 
+::-webkit-scrollbar-button {
+      background-color: #424242;
+} 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} 
